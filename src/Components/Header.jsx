@@ -38,13 +38,29 @@ function Header() {
             <img src={logo} alt="EduKart" width="100" height="40" />
           </Navbar.Brand>
 
-          {/* Hamburger Icon -can only seen when screen size in mobile view */}
-          <Navbar.Toggle
-            // aria-controls="navbar-nav"
-            onClick={() => setIsOpen(prev => !prev)}
-          />
+          {/* Mobile right side: Cart icon + Hamburger */}
+          <div className="d-flex align-items-center gap-3 d-lg-none">
+            {/* Cart icon */}
+            <Nav.Link as={NavLink} to="/cart" className="position-relative text-dark  ">
+              <FaShoppingCart size={25} />
+              <span
+                className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                style={{ fontSize: '0.65rem' }}
+              >
+                {cart.length}
+              </span>
+            </Nav.Link>
 
-          {/* On desktop: normal collapse with div; Navbar.Collapse removed and id - On small screen cant be seen; on large screen display flex*/}
+            {/* Hamburger Icon -visible on small screen only */}
+            <Navbar.Toggle
+              // aria-controls="navbar-nav"
+              onClick={() => setIsOpen(prev => !prev)}
+            />
+          </div>
+
+
+
+          {/* Desktop Naviagtion:Visible on large screen only ( normal collapse with div; Navbar.Collapse removed and id - On small screen cant be seen; on large screen display flex)*/}
           <div className="d-none d-lg-flex justify-content-between align-items-center w-100 ">
             {/* Center nav links */}
             <Nav className="mx-auto gap-5 fw-semibold" variant="underline" defaultActiveKey="/">
@@ -58,13 +74,13 @@ function Header() {
             <div className="d-flex align-items-center gap-3">
               {/* Cart icon with count badge */}
               <Nav.Link as={NavLink} to="/cart" className="position-relative text-dark">
-                <FaShoppingCart size={20} />         
-                  <span
-                    className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-                    style={{ fontSize: '0.65rem' }}
-                  >
-                    {cart.length}
-                  </span>         
+                <FaShoppingCart size={20} />
+                <span
+                  className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                  style={{ fontSize: '0.65rem' }}
+                >
+                  {cart.length}
+                </span>
               </Nav.Link>
               {/* auth links */}
               <Nav.Link as={NavLink} to="/login">Login</Nav.Link>
@@ -92,7 +108,6 @@ function Header() {
               <Nav.Link as={NavLink} to="/allcourses" className='text-light' onClick={closeMenu}>Courses</Nav.Link>
               <Nav.Link as={NavLink} to="/about" className='text-light' onClick={closeMenu}>About</Nav.Link>
               <Nav.Link as={NavLink} to="/contact" className='text-light' onClick={closeMenu} >Contact</Nav.Link>
-              <Nav.Link as={NavLink} to="/cart" className='text-light' onClick={closeMenu}>Cart</Nav.Link>
               <Nav.Link as={NavLink} to="/login" className='text-light' onClick={closeMenu} >Login</Nav.Link>
               <Nav.Link as={NavLink} to="/signup" className='text-light' onClick={closeMenu}>Sign Up</Nav.Link>
             </Nav>

@@ -111,7 +111,7 @@ const courses = [
   {
     id: 7,
     title: "Digital Marketing Mastery",
-    description: "Become a digital marketing expert by learning SEO, SEM, email marketing, content strategies, and ad campaigns on Google and social media platforms.",
+    description: "Become a digital marketing expert by learning SEO, SEM, email marketing, content strategies, and ad campaigns on Google and social media platforms. Learn complete marketing.",
     originalPrice: 459,
     discountedPrice: 259,
     rating: 4.5,

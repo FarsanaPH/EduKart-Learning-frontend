@@ -60,7 +60,7 @@ function CourseDetail() {
 
             {/* Add to Cart and Buy Now Button */}
             <div className="d-flex gap-2">
-              <CartModal course={course} />       {/* Add to cart button */}
+              <CartModal course={course} isDetails={true}/>       {/* Add to cart button */}
               <CheckoutModal course={course} />  {/* Buy Now button */}
             </div>
           </Col>
