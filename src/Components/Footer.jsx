@@ -26,7 +26,7 @@ function Footer() {
           </Col>
 
           {/* Quick Links */}
-          <Col md={4} className="mb-4 d-flex justify-content-center">
+          <Col md={4} className="mb-4 d-flex justify-content-md-center">
             <div>
               <h5 className="fw-bold mb-3">Quick Links</h5>
               <ul className="list-unstyled mb-0">
