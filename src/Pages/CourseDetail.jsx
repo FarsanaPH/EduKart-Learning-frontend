@@ -29,7 +29,7 @@ function CourseDetail() {
           </Col>
 
           {/* RIGHT SIDE DETAILS */}
-          <Col md={7}>
+          <Col md={7} className="p-4 p-md-0">
             <h2 className="fw-bold">{course.title}</h2>
             <p className="text-muted">{course.description}</p>
 

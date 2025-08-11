@@ -9,6 +9,7 @@ import { CartContext } from '../Context/CartContext';
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const closeMenu = () => setIsOpen(false);
 
   const { cart } = useContext(CartContext);
 
@@ -87,13 +88,13 @@ function Header() {
             transition={{ duration: 0.6 }}
           >
             <Nav className="flex-column gap-3 bg-warning rounded px-4 py-3 text-uppercase text-center fw-bold ">
-              <Nav.Link as={NavLink} to="/" className='text-light'>Home</Nav.Link>
-              <Nav.Link as={NavLink} to="/allcourses" className='text-light'>Courses</Nav.Link>
-              <Nav.Link as={NavLink} to="/about" className='text-light' >About</Nav.Link>
-              <Nav.Link as={NavLink} to="/contact" className='text-light' >Contact</Nav.Link>
-              <Nav.Link as={NavLink} to="/cart" className='text-light' >Cart</Nav.Link>
-              <Nav.Link as={NavLink} to="/login" className='text-light' >Login</Nav.Link>
-              <Nav.Link as={NavLink} to="/signup" className='text-light' >Sign Up</Nav.Link>
+              <Nav.Link as={NavLink} to="/" className='text-light' onClick={closeMenu}>Home</Nav.Link>
+              <Nav.Link as={NavLink} to="/allcourses" className='text-light' onClick={closeMenu}>Courses</Nav.Link>
+              <Nav.Link as={NavLink} to="/about" className='text-light' onClick={closeMenu}>About</Nav.Link>
+              <Nav.Link as={NavLink} to="/contact" className='text-light' onClick={closeMenu} >Contact</Nav.Link>
+              <Nav.Link as={NavLink} to="/cart" className='text-light' onClick={closeMenu}>Cart</Nav.Link>
+              <Nav.Link as={NavLink} to="/login" className='text-light' onClick={closeMenu} >Login</Nav.Link>
+              <Nav.Link as={NavLink} to="/signup" className='text-light' onClick={closeMenu}>Sign Up</Nav.Link>
             </Nav>
           </motion.div>
         )}
