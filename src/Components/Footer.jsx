@@ -75,7 +75,7 @@ function Footer() {
 
 
           {/* Social Media */}
-          <Col md={4} className="mb-4 d-flex justify-content-center">
+          <Col md={4} className="mb-4 d-flex justify-content-md-center">
             <div>
               <h5 className="fw-bold mb-3 text-white">Follow Us</h5>
               <ul className="list-unstyled d-flex mb-0">
