@@ -43,7 +43,7 @@ function Hero() {
                                     <Button onClick={() => navigate("/allcourses")} variant="primary" className="btn-lift text-white rounded-pill px-4 py-2">
                                         Get started
                                     </Button>
-                                    <a href="" variant="light" onClick={() => navigate("/allcourses")} className="btn-lift d-flex align-items-center gap-2 text-decoration-none bg-white px-3 py-2 rounded-pill shadow">                                         
+                                    <a  variant="light" onClick={() => navigate("/allcourses")} className="btn-lift d-flex align-items-center gap-2 text-decoration-none bg-white px-3 py-2 rounded-pill shadow">                                         
                                         <FaCirclePlay className="text-primary " />
                                         <span className="text-dark">See how it works</span>
                                     </a>
