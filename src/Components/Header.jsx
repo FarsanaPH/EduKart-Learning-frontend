@@ -32,7 +32,7 @@ function Header() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.5 }} // Animate over 0.5s, but start after a 0.5s delay
       >
-        <Navbar bg="light" expand="lg" fixed="top" className="shadow-sm px-5">
+        <Navbar bg="light" expand="lg" fixed="top" className="shadow-sm px-3">
           {/* Image Logo */}
           <Navbar.Brand as={NavLink} to="/">
             <img src={logo} alt="EduKart" width="100" height="40" />
