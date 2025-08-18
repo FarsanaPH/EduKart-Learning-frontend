@@ -2,7 +2,7 @@
 
 A React-based **Course Selling Platform** where users can seamlessly browse, explore, and enroll in courses.  
 The website simulates a real-world e-learning experience with efficient cart management, smooth animations, and responsive design.  
-The app uses **React Context API** for global state management, **Framer Motion** for animations, **React-Bootstrap** for a responsive, modern UI, and fully **reusable components** to keep the code clean and scalable.  
+The app uses **React Context API** for global state management, **Framer Motion** for animations, **React-Bootstrap** for a responsive, modern UI, and **reusable components** to keep the code clean and scalable.  
 
 ## Project Purpose  
 
@@ -46,7 +46,7 @@ This is a **frontend project** built to simulate real-world **online learning pl
 - **Vite** – Fast build tool
 
 
-## Live Demo : 
+### Live Demo : 
 The React frontend is available and deployed here:[View on Vercel](https://edukart-learning-frontend.vercel.app/)
 
 ---
