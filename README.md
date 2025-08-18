@@ -1,12 +1,58 @@
-# React + Vite
+# EduKart Learning  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based **Course Selling Platform** where users can seamlessly browse, explore, and enroll in courses.  
+The website simulates a real-world e-learning experience with efficient cart management, smooth animations, and responsive design.  
+The app uses **React Context API** for global state management, **Framer Motion** for animations, **React-Bootstrap** for a responsive, modern UI, and fully **reusable components** to keep the code clean and scalable.  
 
-Currently, two official plugins are available:
+## Project Purpose  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a **frontend project** built to simulate real-world **online learning platforms**. It demonstrates proficiency in:  
 
-## Expanding the ESLint configuration
+- **Global State Management** using React Context API (Add to Cart, Remove, Checkout)  
+- **Interactive UI transitions** with Framer Motion  
+- **Component Reusability** (cards, modals, buttons)  
+- **Responsive UI** adaptable to all screen sizes
+- 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Features  
+
+- **Homepage**  
+  - Hero banner with Framer animations  
+  - Highlights Banner  
+  - Trending courses previews  
+  - Testimonials  
+
+- **All Courses Page**  
+  - Complete course catalog  
+
+- **Course Details Page**  
+  - Detailed course information  
+  - *Add to Cart* and *Buy Now* options  
+
+- **Cart & Checkout**  
+  - Add/remove courses dynamically  
+  - Checkout summary with selected items  
+  - Confirmation modal with checkout details  
+
+- **Additional Pages**  
+  - About Page – Platform details  
+  - Contact Page – User inquiries  
+
+
+## Tech Stack  
+
+- **React** – Component-based UI  
+- **React Context API** – State management  
+- **Framer Motion** – Smooth animations  
+- **React-Bootstrap** – Layout, Component Styling & Responsiveness  
+- **JavaScript (ES6+)** – Core logic  
+- **Vite** – Fast build tool
+
+## 🔗 Live Demo
+
+The React frontend is available and deployed here:
+[Live Demo: Deployed on Vercel](https://edukart-learning-frontend.vercel.app/)
+
+---
+
+> *Thanks for visiting the project!* 😊
