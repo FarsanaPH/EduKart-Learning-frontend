@@ -46,7 +46,7 @@ This is a **frontend project** built to simulate real-world **online learning pl
 - **Vite** – Fast build tool
 
   
-###🔗Live Demo :
+### 🔗Live Demo :
 The React frontend is available and deployed here:[View on Vercel](https://edukart-learning-frontend.vercel.app/)
 
 ---
