@@ -7,15 +7,13 @@ The app uses **React Context API** for global state management, **Framer Motion*
 ## Project Purpose  
 
 This is a **frontend project** built to simulate real-world **online learning platforms**. It demonstrates proficiency in:  
-
 - **Global State Management** using React Context API (Add to Cart, Remove, Checkout)  
 - **Interactive UI transitions** with Framer Motion  
 - **Component Reusability** (cards, modals, buttons)  
 - **Responsive UI** adaptable to all screen sizes
-- 
+
 
 ##  Features  
-
 - **Homepage**  
   - Hero banner with Framer animations  
   - Highlights Banner  
@@ -40,7 +38,6 @@ This is a **frontend project** built to simulate real-world **online learning pl
 
 
 ## Tech Stack  
-
 - **React** – Component-based UI  
 - **React Context API** – State management  
 - **Framer Motion** – Smooth animations  
@@ -48,10 +45,8 @@ This is a **frontend project** built to simulate real-world **online learning pl
 - **JavaScript (ES6+)** – Core logic  
 - **Vite** – Fast build tool
 
-## 🔗 Live Demo
 
-The React frontend is available and deployed here:
-[Live Demo: Deployed on Vercel](https://edukart-learning-frontend.vercel.app/)
+### 🔗 Live Demo : The React frontend is available and deployed here:[Live Demo: Deployed on Vercel](https://edukart-learning-frontend.vercel.app/)
 
 ---
 
