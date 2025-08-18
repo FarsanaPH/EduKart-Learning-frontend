@@ -1,4 +1,4 @@
-# EduKart Learning  
+# EduKart
 
 A React-based **Course Selling Platform** where users can seamlessly browse, explore, and enroll in courses.  
 The website simulates a real-world e-learning experience with efficient cart management, smooth animations, and responsive design.  
